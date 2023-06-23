@@ -1,0 +1,46 @@
+.container {
+    margin: 20px;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.emotion {
+    display: none;
+}
+
+.emotionLabel {
+    margin: 3px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background-color: #999999;
+    color: white;
+}
+
+.emotion:checked+label {
+    background-color: #666666;
+    border: #000000 solid 2px;
+}
+
+.scale {
+    display: none;
+}
+
+.scaleLabel {
+    padding: 4px 6px;
+    border-radius: 3px;
+    background-color: #999999;
+    color: white;
+}
+
+.scale:checked+label {
+    background-color: #666666;
+    border: #000000 solid 2px;
+}
+
+p {
+    margin-bottom: 4px;
+}
+
